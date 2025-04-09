@@ -1,0 +1,13 @@
+name = "three-in-one"
+main = "src/worker.js"
+workers_dev = true
+compatibility_date = "2025-04-02"
+
+[placement]
+mode = "smart"
+
+[observability]
+enabled = true
+
+[vars]
+APP_DOMAIN = "htree.haotv.top"
