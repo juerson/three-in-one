@@ -1,3 +1,7 @@
+
+dist/README.md
+dist/worker.js.map
+
 # Logs
 
 logs
@@ -113,7 +117,7 @@ out
 # Nuxt.js build / generate output
 
 .nuxt
-dist
+# dist
 
 # Gatsby files
 
