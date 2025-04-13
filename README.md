@@ -4,12 +4,14 @@
 
 ### 一、在Cloudflare中设置环境变量
 
-| **变量名称**     | **说明**                                            | 必须/可选 |
-| ---------------- | --------------------------------------------------- | --------- |
-| UUID4            | vless协议所用uuid                                   | 必须      |
-| SHA224PWD        | trojan协议所用password对应的sha224编码              | 必须      |
-| SSSIG            | shadowsocks协议所用，自定义访问权限，防止被别人盗用 | 必须      |
-| DEFAULTDOCDOMAIN | 伪装网页，添加要伪装的域名                          | 可选      |
+| **变量名称**     | **说明**                                                     | 必须/可选 |
+| ---------------- | ------------------------------------------------------------ | --------- |
+| UUID4            | vless协议所用uuid                                            | 必须      |
+| SHA224PWD        | trojan协议所用password对应的sha224编码                       | 必须      |
+| SSSIG            | shadowsocks协议所用，自定义访问权限，防止被别人盗用          | 必须      |
+| DEFAULTDOCDOMAIN | 伪装网页，添加要伪装的域名                                   | 可选      |
+| SUBPWD           | /sub?pwd=访问的密码                                          | 可选      |
+| PROXY_BANK_URL   | [proxyList.txt](https://github.com/juerson/three-in-one/blob/main/proxyList.txt) | 可选      |
 
 <img src="images\变量.png" style="zoom:80%;" />
 
